@@ -1,5 +1,9 @@
 ##  Assignments Folder
 |   #   | Folder Link | Assignment Description |
 | :---: | ----------- | ---------------------- |
-|   1   |<a href="https://github.com/LandenSJones/4883-Programming_Techniques-Jones/tree/master/Assignments/P01">P01</a>|5 Problems to show UVA submits|
-|   2   |<a href="https://github.com/LandenSJones/4883-Programming_Techniques-Jones/tree/master/Assignments/P02">P02</a>|4 UVA Problems, stacks|
+|   1   |<a href="https://github.com/LandenSJones/4883-Programming_Techniques-Jones/tree/master/Assignments/A03">A03</a>|Problem Solving Presentation|
+|   2   |<a href="https://github.com/LandenSJones/4883-Programming_Techniques-Jones/tree/master/Assignments/A04">A04</a>|Binary Trees|
+|   3   |<a href="https://github.com/LandenSJones/4883-Programming_Techniques-Jones/tree/master/Assignments/P01">P01</a>|Simple Problem Set|
+|   4   |<a href="https://github.com/LandenSJones/4883-Programming_Techniques-Jones/tree/master/Assignments/P02">P02</a>|Stacks|
+|   5   |<a href="https://github.com/LandenSJones/4883-Programming_Techniques-Jones/tree/master/Assignments/P03">P03</a>|Queues|
+|   6   |<a href="https://github.com/LandenSJones/4883-Programming_Techniques-Jones/tree/master/Assignments/P04">P04</a>|Unknown|
