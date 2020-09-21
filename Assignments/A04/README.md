@@ -2,8 +2,8 @@
 #### A04 
 |   #   | Folder Link | Assignment Description |
 | :---: | ----------- | ---------------------- |
-|   1   |<a href="https://github.com/LandenSJones/4883-Programming_Techniques-Jones/tree/master/Assignments/A04/122.pdf">122</a>|"Accordian" Patience|
-|   2   |<a href="https://github.com/LandenSJones/4883-Programming_Techniques-Jones/blob/master/Assignments/A04/12347.pdf">12347</a>|Rails|
+|   1   |<a href="https://github.com/LandenSJones/4883-Programming_Techniques-Jones/tree/master/Assignments/A04/122.pdf">122</a>|Trees on the Level|
+|   2   |<a href="https://github.com/LandenSJones/4883-Programming_Techniques-Jones/blob/master/Assignments/A04/12347.pdf">12347</a>|Binary Search Tree|
 
 
 ##### The above are problems that relate to binary tree problems from UVA judge.
