@@ -1,4 +1,4 @@
-//Very close but doesn't quite work yet
+//Works and produces correct output, but shows presentation error
 
 #include <iostream>
 #include <fstream>
@@ -15,16 +15,16 @@ void Collapse(vector<vector<string> >& game, int index, int& stacks);
 int main()
 {
     ifstream infile;
-    //infile.open("input.txt");
+    infile.open("input.txt");
     string firstCard;
-    cin >> firstCard;
+    infile >> firstCard;
 
     while (firstCard[0] != '#')
     {
         vector<string> data = ReadGame(firstCard, infile); //READS DATA FROM TEXT FILE , , infile
         vector<vector<string> > game = CreateGameBoard(data);
         PlayGame(game);
-        cin >> firstCard; //RESETS
+        infile >> firstCard; //RESETS
         if (firstCard[0] != '#')
             cout << endl;
     }
@@ -39,7 +39,7 @@ vector<string> ReadGame(string firstCard, ifstream& infile) //, ifstream &infile
     string temp;
     for (int i = 0; i < 51; i++)
     {
-        cin >> temp;
+        infile >> temp;
         data.push_back(temp);
     }
     return data;
