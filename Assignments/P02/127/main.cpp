@@ -1,4 +1,6 @@
-//Works and produces correct output, but shows presentation error
+//Landen Jones
+//9/27/2020
+//Program plays a game of accordian patience. 
 
 #include <iostream>
 #include <fstream>
@@ -15,16 +17,16 @@ void Collapse(vector<vector<string> >& game, int index, int& stacks);
 int main()
 {
     ifstream infile;
-    infile.open("input.txt");
+    //infile.open("input.txt");
     string firstCard;
-    infile >> firstCard;
+    cin >> firstCard;
 
     while (firstCard[0] != '#')
     {
         vector<string> data = ReadGame(firstCard, infile); //READS DATA FROM TEXT FILE , , infile
         vector<vector<string> > game = CreateGameBoard(data);
         PlayGame(game);
-        infile >> firstCard; //RESETS
+        cin >> firstCard; //RESETS
         if (firstCard[0] != '#')
             cout << endl;
     }
@@ -39,7 +41,7 @@ vector<string> ReadGame(string firstCard, ifstream& infile) //, ifstream &infile
     string temp;
     for (int i = 0; i < 51; i++)
     {
-        infile >> temp;
+        cin >> temp;
         data.push_back(temp);
     }
     return data;
@@ -120,10 +122,11 @@ void PlayGame(vector<vector<string> >& game)
         cout << stacks << " pile remaining: ";
     else
         cout << stacks << " piles remaining: ";
-    for (int j = 0; j < stacks; j++)
+    for (int j = 0; j < stacks-1; j++)
     {
         cout << game[j].size() << ' ';
     }
+    cout << game[stacks - 1].size();
 }
 void Collapse(vector<vector<string> >& game, int index, int& stacks)
 {
