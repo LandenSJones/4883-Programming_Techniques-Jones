@@ -8,19 +8,19 @@ bool Precedence(char, char);
 int main() 
 {
     ifstream infile;
-    infile.open("input.txt");
+    //infile.open("input.txt");
     int cases;  //Holds iterations
     char next;  //Holds next variable read in
     stack <char> test;  //Will hold the equation
-    infile >> cases;
-    infile.ignore(2, '\n');     //Reads x chars or until white space
+    cin >> cases;
+    cin.ignore(2, '\n');     //Reads x chars or until white space
     for(int i = 0; i < cases; i++)
     {
-        infile.ignore(10, '\n');
-        while (infile.peek() != '\n' && infile.peek() != -1) //Checks to be sure that there is more data in equation
+        cin.ignore(10, '\n');
+        while (cin.peek() != '\n' && cin.peek() != -1) //Checks to be sure that there is more data in equation
         {
-            infile >> next;
-            infile.ignore(10, '\n');
+            cin >> next;
+            cin.ignore(10, '\n');
             if (next == ')')
             {
                 while (test.top() != '(')
@@ -59,10 +59,10 @@ int main()
             cout << test.top();
             test.pop();
         }
-        cout << endl;
-        if (cases)
-            cout << endl;
+        if (i < cases-1)
+            cout << endl << endl;
     }
+    cout << endl;
     return 0;
 }
 bool Precedence(char str1, char str2)
