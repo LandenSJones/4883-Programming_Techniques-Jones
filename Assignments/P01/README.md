@@ -6,3 +6,4 @@
 |   3   |<a href="https://github.com/LandenSJones/4883-Programming_Techniques-Jones/tree/master/Assignments/P01/11727">11727</a>|Cost Cutting|
 |   4   |<a href="https://github.com/LandenSJones/4883-Programming_Techniques-Jones/tree/master/Assignments/P01/12372">12372</a>|Packing for Holiday|
 |   5   |<a href="https://github.com/LandenSJones/4883-Programming_Techniques-Jones/tree/master/Assignments/P01/12403">12403</a>|Save Setu|
+|   6   |<a href="https://github.com/LandenSJones/4883-Programming_Techniques-Jones/blob/master/Assignments/P01/P01%20UVA%20Submission.png">UVA Submissions</a>|Screenshot, shows accepted submissions|
