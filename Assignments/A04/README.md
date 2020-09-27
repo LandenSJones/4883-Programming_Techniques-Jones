@@ -1,5 +1,5 @@
 
-#### A04 
+#### Assignment 4 - Binary Trees 
 |   #   | Folder Link | Assignment Description |
 | :---: | ----------- | ---------------------- |
 |   1   |<a href="https://github.com/LandenSJones/4883-Programming_Techniques-Jones/tree/master/Assignments/A04/122.pdf">122</a>|Trees on the Level|
