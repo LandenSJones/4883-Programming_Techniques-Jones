@@ -16,6 +16,3 @@ P(path) = 2 * P(path – last_node_in_path) + 2, if last_node_in_path = ‘R’
 
 - https://1stprinciples.wordpress.com/uva-online-judge-discussion/122-trees-on-the-level/
 
-
-
-12347 - 
