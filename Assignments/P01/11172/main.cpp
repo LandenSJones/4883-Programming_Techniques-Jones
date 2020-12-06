@@ -1,3 +1,5 @@
+//Landen Jones
+//UVa problem 11172 - Relaitional Operator
 #include <iostream>
 #include <fstream>
 using namespace std;
